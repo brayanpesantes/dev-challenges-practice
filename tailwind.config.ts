@@ -28,17 +28,25 @@ const config: Config = {
           200: "#D4D4D8",
           300: "#52525A",
           400: "#18181B",
-          yellow:'#F5C044',
-          green:"#4CA154"
+          yellow: "#F5C044",
+          green: "#4CA154",
+        },
+        "from-contact": {
+          100: "#F8FAFC",
+          200: "#CDD5E0",
+          300: "#111729",
+          400: "#4036A9",
         },
       },
       fontFamily: {
         sora: "var(--font-sora)",
         lato: "var(--font-lato)",
         poppins: "var(--font-poppins)",
+        be_vietnam_pro: "var(--font-be_vietnam_pro)",
       },
       backgroundImage: {
         "overlay-business": "url('/images/white-overlay.svg')",
+        "contact-page": "url('/images/bg-image.svg')",
       },
     },
   },

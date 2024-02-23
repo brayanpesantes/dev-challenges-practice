@@ -7,6 +7,7 @@ export default function Home() {
         <Link href={"mini-blog-card"}>Mini Blog Card</Link>
         <Link href={"business-blog-card"}>business Blog Card</Link>
         <Link href={"testimonials"}>testimonials</Link>
+        <Link href={"contact-page"}>Contacto Page</Link>
       </ul>
     </main>
   );
