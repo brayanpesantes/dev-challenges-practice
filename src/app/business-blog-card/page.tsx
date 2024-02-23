@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function BusinessBlogCard() {
-  return <div>BusinessBlogCard</div>;
+  return <main className="w-screen h-screen">BusinessBlogCard</main>;
 }

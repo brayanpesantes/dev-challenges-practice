@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function MiniBlogCardPage() {
   return (
-    <main className="w-screen h-screen bg-cactus-200 flex items-center justify-center">
+    <main className="w-screen h-screen bg-cactus-300 flex items-center justify-center">
       <article className="w-72 lg:w-[336px] bg-cactus-100 mx-auto rounded-lg font-sora ">
         <div className="p-4">
           <Image
