@@ -15,7 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={fonts.sora.variable}>{children}</body>
+      <body
+        className={`${fonts.sora.variable} ${fonts.lato.variable} ${fonts.poppins.variable}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

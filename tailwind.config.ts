@@ -18,9 +18,19 @@ const config: Config = {
           600: "#20293A",
           700: "#883AE1",
         },
+        business: {
+          100: "#F2F5F9",
+          200: "#677489",
+          300: "111729",
+        },
       },
       fontFamily: {
         sora: "var(--font-sora)",
+        lato: "var(--font-lato)",
+        poppins: "var(--font-poppins)",
+      },
+      backgroundImage: {
+        "overlay-business": "url('/images/white-overlay.svg')",
       },
     },
   },
