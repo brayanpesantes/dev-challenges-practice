@@ -23,6 +23,14 @@ const config: Config = {
           200: "#677489",
           300: "111729",
         },
+        testimonials: {
+          100: "#FAFAF9",
+          200: "#D4D4D8",
+          300: "#52525A",
+          400: "#18181B",
+          yellow:'#F5C044',
+          green:"#4CA154"
+        },
       },
       fontFamily: {
         sora: "var(--font-sora)",
