@@ -34,7 +34,7 @@ export default function MultiStepPage() {
   };
 
   return (
-    <main className="h-screen max-w-screen-xl font-inter flex items-center justify-center relative bg-step-500 overflow-hidden flex-col gap-3">
+    <main className="h-screen max-w-screen-xl font-inter flex items-center justify-center relative bg-step-800 overflow-hidden flex-col gap-3">
       <section className="px-3 md:px-0">
         {currentStep === 1 && (
           <Card className="flex flex-col">
