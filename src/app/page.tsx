@@ -9,6 +9,7 @@ export default function Home() {
         <Link href={"testimonials"}>testimonials</Link>
         <Link href={"contact-page"}>Contacto Page</Link>
         <Link href={"simple-homepage"}>Simple HomePage</Link>
+        <Link href={"multi-step"}>Multi Step</Link>
       </ul>
     </main>
   );
