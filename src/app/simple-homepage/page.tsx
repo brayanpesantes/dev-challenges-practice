@@ -18,14 +18,14 @@ export default function SimpleHomePage() {
         { dark: isDarkMode },
       ])}
     >
-      <div className="px-[72px] pb-10">
+      <div className="px-9 md:px-[72px] pb-10">
         <Header handleDark={handleToggleDarkMode} isDarkMode={isDarkMode} />
         <section className="mt-16 flex flex-col-reverse  xl:flex-row gap-6">
-          <div className="xl:w-1/2 mt-36 md:mt-84 xl:mt-0">
+          <div className="xl:w-1/2 mt-12 md:mt-36 md:mt-84 xl:mt-0">
             <p className="uppercase text-simple-300 dark:text-white font-semibold ">
               😎 Simple way to communicate
             </p>
-            <h1 className="text-simple-400 dark:text-white text-[60px] xl:text-7xl font-bold mt-8">
+            <h1 className="text-simple-400 dark:text-white text-5xl md:text-[60px] xl:text-7xl font-bold mt-8">
               Actions for Accessibility in Design
             </h1>
             <p className="mt-12 text-lg text-simple-300/80 dark:text-simple-200 font-medium lg:w-[55%] xl:w-[90%]">
@@ -65,7 +65,7 @@ export default function SimpleHomePage() {
               </li>
             </ul>
           </div>
-          <div className="xl:w-1/2  h-[500px] lg:h-[446px] xl:h-auto relative center md:w-[550px] md:mx-auto">
+          <div className="h-[300px] xl:w-1/2  md:h-[500px] lg:h-[446px] xl:h-auto relative center md:w-[550px] md:mx-auto">
             <Image
               src={"/images/hero-image-simple-homepage.png"}
               alt="hero image"
