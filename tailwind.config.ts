@@ -6,6 +6,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "selector",
   theme: {
     extend: {
       colors: {
@@ -36,6 +37,14 @@ const config: Config = {
           200: "#CDD5E0",
           300: "#111729",
           400: "#4036A9",
+        },
+        simple: {
+          100: "#F2F9FE",
+          200: "#909193",
+          300: "#223344",
+          400: "#111729",
+          green: "#4CA154",
+          blue: "#2A4DD0",
         },
       },
       fontFamily: {

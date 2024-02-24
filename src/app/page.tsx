@@ -8,6 +8,7 @@ export default function Home() {
         <Link href={"business-blog-card"}>business Blog Card</Link>
         <Link href={"testimonials"}>testimonials</Link>
         <Link href={"contact-page"}>Contacto Page</Link>
+        <Link href={"simple-homepage"}>Simple HomePage</Link>
       </ul>
     </main>
   );
