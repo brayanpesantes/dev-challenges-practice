@@ -56,6 +56,13 @@ const config: Config = {
           700: "#652CD1",
           800: "#121826",
         },
+        music: {
+          100: "#E5E7EB",
+          200: "#4D5562",
+          300: "#212936",
+          400: "#121826a6",
+          500: "#C93B76",
+        },
       },
       fontFamily: {
         sora: ["var(--font-sora)"],
@@ -68,6 +75,7 @@ const config: Config = {
         "overlay-business": "url('/images/white-overlay.svg')",
         "contact-page": "url('/images/bg-image.svg')",
         "radial-step": "url('/images/blur-radial.svg')",
+        music: "url('/songs/bg_music.jpg')",
       },
     },
   },
