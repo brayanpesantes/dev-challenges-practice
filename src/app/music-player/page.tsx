@@ -98,7 +98,7 @@ export default function MusicPlayerPage() {
 
   return (
     <main className="font-inter max-w-screen-xl h-screen bg-music bg-cover bg-no-repeat flex justify-center items-center">
-      <section className="w-[345px] lg:w-[350px] h-auto bg-music-300 rounded-xl">
+      <section className="w-[345px] lg:w-[350px] h-auto bg-music-400 rounded-xl">
         <div className="p-5">
           <Image
             src={currentMusic?.cover}
