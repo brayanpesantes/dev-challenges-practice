@@ -10,6 +10,7 @@ export default function Home() {
         <Link href={"contact-page"}>Contacto Page</Link>
         <Link href={"simple-homepage"}>Simple HomePage</Link>
         <Link href={"multi-step"}>Multi Step</Link>
+        <Link href={"music-player"}>Music Player</Link>
       </ul>
     </main>
   );
