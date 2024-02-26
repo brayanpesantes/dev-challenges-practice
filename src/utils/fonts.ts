@@ -1,4 +1,11 @@
-import { Lato, Poppins, Sora, Be_Vietnam_Pro, Inter } from "next/font/google";
+import {
+  Lato,
+  Poppins,
+  Sora,
+  Be_Vietnam_Pro,
+  Inter,
+  Outfit,
+} from "next/font/google";
 
 const sora = Sora({ subsets: ["latin"], variable: "--font-sora" });
 const lato = Lato({
@@ -22,8 +29,14 @@ const be_vietnam_pro = Be_Vietnam_Pro({
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
-  style:['normal'],
+  style: ["normal"],
   variable: "--font-inter",
+});
+
+const outfit = Outfit({
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-outfit",
 });
 
 export const fonts = {
@@ -32,4 +45,5 @@ export const fonts = {
   poppins,
   be_vietnam_pro,
   inter,
+  outfit,
 };

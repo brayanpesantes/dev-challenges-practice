@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${fonts.sora.variable} ${fonts.lato.variable} ${fonts.poppins.variable}  ${fonts.inter.variable}`}
+        className={`${fonts.sora.variable} ${fonts.lato.variable} ${fonts.poppins.variable}  ${fonts.inter.variable} ${fonts.outfit.variable}`}
       >
         {children}
       </body>

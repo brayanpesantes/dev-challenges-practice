@@ -11,6 +11,7 @@ export default function Home() {
         <Link href={"simple-homepage"}>Simple HomePage</Link>
         <Link href={"multi-step"}>Multi Step</Link>
         <Link href={"music-player"}>Music Player</Link>
+        <Link href={"random-quote"}>Random Quote</Link>
       </ul>
     </main>
   );

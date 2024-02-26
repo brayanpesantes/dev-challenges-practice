@@ -63,6 +63,13 @@ const config: Config = {
           400: "#121826a6",
           500: "#C93B76",
         },
+        quote: {
+          100: "#97A3B6",
+          200: "#4A5567",
+          300: "#20293A",
+          400: "#111729",
+          500: "#6466E9",
+        },
       },
       fontFamily: {
         sora: ["var(--font-sora)"],
@@ -70,12 +77,14 @@ const config: Config = {
         poppins: ["var(--font-poppins)"],
         be_vietnam_pro: ["var(--font-be_vietnam_pro)"],
         inter: ["var(--font-inter)"],
+        outfit: ["var(--font-outfit)"],
       },
       backgroundImage: {
         "overlay-business": "url('/images/white-overlay.svg')",
         "contact-page": "url('/images/bg-image.svg')",
         "radial-step": "url('/images/blur-radial.svg')",
         music: "url('/songs/bg_music.jpg')",
+        "random-quote": "url('/images/bg-image-random-quote.svg')",
       },
     },
   },
