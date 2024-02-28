@@ -70,6 +70,14 @@ const config: Config = {
           400: "#111729",
           500: "#6466E9",
         },
+        qr: {
+          100: "#F2F5F9",
+          200: "#364153",
+          300: "#111729",
+          400: "#111729",
+          500: "#4e80ee33",
+          600: "#3662E3",
+        },
       },
       fontFamily: {
         sora: ["var(--font-sora)"],
@@ -85,6 +93,7 @@ const config: Config = {
         "radial-step": "url('/images/blur-radial.svg')",
         music: "url('/songs/bg_music.jpg')",
         "random-quote": "url('/images/bg-image-random-quote.svg')",
+        "qr-illustration": "url('/images/bg-illustration.svg')",
       },
     },
   },
